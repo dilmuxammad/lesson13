@@ -1,0 +1,16 @@
+.heading {
+    transition:  all 0.3 ease;
+}
+
+.heading::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #0000;
+    transition:  all 0.3 ease;
+}
+
+.heading:hover::after {
+    width: 40px;
+}
